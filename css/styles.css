@@ -1,0 +1,16 @@
+:root{
+
+    --cor-das-letras:#FFFFFF;
+    --cor-de-fundo:#DDDFEB;
+    --cor-da-moldura:#348789;
+
+}
+
+body{
+
+    background-color:#DDDFEB;
+    box-sizing: border-box;
+    color: var(--cor-das-letras);
+
+}
+

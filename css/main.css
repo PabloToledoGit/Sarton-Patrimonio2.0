@@ -1,0 +1,63 @@
+.tronco{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25em;
+}
+
+/*aqui vai a moldura sendo apenas necessário mudar o background image para colocar a foto do patrimonio (tronco__moldura)*/
+
+.tronco__moldura{
+
+    padding: 0;
+    width: 8em;
+    padding: 6.5em 3em;
+    color: var(--cor-letra-2);
+    background-color: var(--cor-da-moldura);
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    
+}
+
+.especificacoes__container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.especificacoes__container__titulo{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #679EB9;
+    margin-right: 0.8em;
+    margin-bottom: 0.3em;
+}
+
+.especificacoes__info{
+
+    background-color: #679EB9;
+    border-radius: 16px 0px 0px 16px;
+    color: #F4EDE8;
+    font-style: normal;
+    padding: 1.3em;
+    margin: 0;
+    width: 4em;
+    height: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1.5em;
+}
+
